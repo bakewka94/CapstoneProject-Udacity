@@ -68,7 +68,7 @@ Top fraud drivers: `Fault`, `BasePolicy`, `VehicleCategory`, `Month`, `PolicyTyp
 | Logistic Regression | 0.819 | 0.172 | Linear baseline |
 | CatBoost (tuned) | **0.871** | **0.302** | + 20 % PR‑AUC lift |
 
-* At threshold **0.51**: catches 74 % of fraud while reviewing 31 % of claims.
+* At threshold **0.51**: catches 93 % of fraud while reviewing 33 % of claims.
 * Expected net benefit ≈ **\$4 M per year** on a similarly sized claims book.
 
 ---
@@ -108,4 +108,5 @@ Balancing recall against the cost of false positives was the core challenge.  It
   <https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection>
 * Y. Dorogush et al., 2018 – **CatBoost: unbiased boosting with categorical features**.  
 * S. Lundberg & S. Lee, 2017 – **A Unified Approach to Interpreting Model Predictions** (SHAP).
+* Blog post - https://medium.com/@bakezhangozha/teaching-a-model-to-sniff-out-insurance-fraud-f1b716e14f7c
 
